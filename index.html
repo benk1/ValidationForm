@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>FORM</title>
+  <link rel="stylesheet" type="text/css" href="/project-4/form.css" media="screen" />
+</head>
+
+<body>
+  <header>
+    <br>
+    <br>
+    <h5>Let's talk</h5>
+    <br>
+    <h5>Think you have what it takes? Show us.</h5>
+  </header>
+
+  <section class="personal-info">
+    <br>
+
+    <h4>1.Personal informaation</h4>
+    <br>
+    <hr>
+    <br>
+    <br>
+    <!--<div id="name-phone" class="personal-info">-->
+
+    <input type="text" name="full name" placeholder="Full name*" pattern=".{6,}" required size="35">
+
+    <input type="text" name="phone" placeholder="Phone*" pattern='^\+?\d{0,13}' required size="45">
+    <br>
+    <br>
+    <!--</div> -->
+
+    <input type="email" name="email" placeholder="Email*" required size="35">
+    <br>
+    <br>
+
+    <input type="text" name="Re-enter email" placeholder="Re-enter email*" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$"
+      required size="35">
+    <br>
+    <br>
+
+    <input type="text" name="address" placeholder="Address*" pattern="[A-Za-z0-9]{1,15}" required size="57">
+    <br>
+    <br>
+
+    <!--<div class="state-code ">-->
+    <input type="text" name="city" placeholder="City" pattern="(?:[A-Z][a-z.-]+[ ]?)+" required size="10">
+
+    <input type="text" name="state" placeholder="State" pattern="(?:[A-Z][a-z.-]+[ ]?)+" required size="10 ">
+
+    <input type="text" name="Country/Region" placeholder="Country/Region*" pattern="(?:[A-Z][a-z.-]+[ ]?)+" required size="10 ">
+
+    <input type="text" name="Zip/Postal code" placeholder="Zip/Postal code" size="10">
+    <br>
+    <br>
+
+    <!--</div> -->
+
+    <input type="text" name="How did you hear about us" placeholder="How did you hear about us" pattern="[a-zA-Z0-9]+" required
+      title="Six or more characters" size="57">
+
+  </section>
+
+  <section class="skills-location ">
+    <br>
+    <br>
+    <h4>2.Skills and location</h4>
+    <br>
+    <hr>
+    <br>
+    <br>
+    <h6>Which is your primary design discipline?</h6>
+    <div class="big-container ">
+      <div class="buttons ">
+        <button>Design Research</button>
+        <button>Visual Design</button>
+        <button>Ux Design</button>
+        <button>Front-End Dev</button>
+      </div>
+
+      <div class="class-links ">
+        <div class="left-details ">
+          <br>
+          <h6>Do you have experience with any other
+            <br>discipline?</h6>
+          <input type="checkbox" value="Visual Design">
+          <label for="checkbox">Visual Design</label>
+          <br>
+          <input type="checkbox" value="Ux Design">
+          <label for="checkbox ">Ux Design</label>
+          <br>
+          <input type="checkbox" value="Front-end Development">
+          <label for="checkbox">Front-end Development</label>
+        </div>
+
+
+        <div class="right-details">
+          <br>
+          <h6>Where are you interested in working?
+            <br>You must be legally authorisedto work without bla sponsorship in the localhost you choose</h6>
+          <input type="checkbox" value="Austin">
+          <label for="checkbox">Austin,Texas</label>
+          <br>
+          <input type="checkbox" value="New York ">
+          <label for="checkbox">New York</label>
+          <br>
+          <input type="checkbox" value="Toronto">
+          <label for="checkbox">Toronto,Canada</label>
+          <br>
+          <input type="checkbox" value="Shangai">
+          <label for="checkbox">Shangai,China</label>
+          <br>
+          <input type="checkbox" value="Hursley">
+          <label for="checkbox">Hursley,United Kingdom</label>
+          <br>
+          <input type="checkbox" value="German">
+          <label for="checkbox">Boeblin,German</label>
+          <br>
+          <input type="checkbox" value="somewhere else">
+          <label for="checkbox">Somewhere else</label>
+          <br>
+        </div>
+      </div>
+    </div>
+  </section>
+  <br>
+  <h4>3.Portfolio</h4>
+  <br>
+  <hr>
+  <footer>
+    <div class footer>
+      <p>Press your IBM next great designer by showing us who you are,what you have done, how you think
+        <br>Tell us your story.</p>
+      <br>
+      <br>
+      <input type="text" name="potfolio" placeholder="Portfolio link*" size="100">
+      <br>
+      <br>
+      <textarea placeholder="text">"Anything else(another link availability etc)?"></textarea>
+
+      <br>
+      <button>Submit</button>
+      <br>
+    </div>
+  </footer>
+</body>
+
+</html>
