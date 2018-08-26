@@ -108,7 +108,7 @@ button {
 
 .right-details,
 .left-details {
-  flex: 5;
+  flex: 1 1 auto;
 }
 
 footer button {
