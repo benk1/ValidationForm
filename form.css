@@ -79,9 +79,9 @@ h4 {
   margin: 20px;
 }
 
-button:hover {
+/*button:hover {
   background: blue;
-}
+}*/
 button {
   color: #eee;
   font-size: 15px;
@@ -142,4 +142,38 @@ label {
 
 p {
   color: #eee;
+}
+
+.valid:focus {
+      border: 2px solid green;
+      border-top-color: green;
+      border-right-color: green;
+      border-bottom-color: green;
+      border-left-color: green;
+      border-color: #36cc36;
+}
+/*input:valid{
+  border: 2px solid green;
+  border-top-color: green;
+  border-right-color: green;
+  border-bottom-color: green;
+  border-left-color: green;
+  border-color: #36cc36;
+}*/
+
+.invalid:focus{
+  border: 2px solid red;
+  border-color:red;
+  border-top-color: red;
+      border-right-color: red;
+      border-bottom-color: red;
+  }
+
+  /*input:invalid{
+    border: 2px solid red;
+  border-color:red;
+  }*/
+
+  .submit-button {
+    background:#3bd33b;
 }

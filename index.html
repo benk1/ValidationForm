@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>FORM</title>
-  <link rel="stylesheet" type="text/css" href="/project-4/form.css" media="screen" />
+  <link rel="stylesheet" type="text/css" href="form.css" media="screen" />
 </head>
 
 <body>
@@ -27,41 +27,41 @@
     <br>
     <br>
     <!--<div id="name-phone" class="personal-info">-->
-
-    <input type="text" name="full name" placeholder="Full name*" pattern=".{6,}" required size="35">
-
-    <input type="text" name="phone" placeholder="Phone*" pattern='^\+?\d{0,13}' required size="45">
+     
+    <input id="fullname" type="text" name="fullname" placeholder="Full name*"  size="35">
+    <p>Full name must be alphanumeric and contain  characters</p>
+    <input id="phone" type="text" name="phone" placeholder="Phone*"   size="45">
     <br>
     <br>
     <!--</div> -->
 
-    <input type="email" name="email" placeholder="Email*" required size="35">
+    <input id="email" type="email" name="email" placeholder="Email*"  size="35">
     <br>
     <br>
 
-    <input type="text" name="Re-enter email" placeholder="Re-enter email*" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$"
-      required size="35">
+    <input id="reEmail" type="text" name="reemail" placeholder="Re-enter email*" 
+       size="35">
     <br>
     <br>
 
-    <input type="text" name="address" placeholder="Address*" pattern="[A-Za-z0-9]{1,15}" required size="57">
+    <input id="address" type="text" name="address" placeholder="Address*"   size="57">
     <br>
     <br>
 
     <!--<div class="state-code ">-->
-    <input type="text" name="city" placeholder="City" pattern="[A-Za-z]{1,15}" size="10">
+    <input id="city" type="text" name="city" placeholder="City"  size="10">
 
-    <input type="text" name="state" placeholder="State" pattern="[A-Za-z]{1,15}" size="10 ">
+    <input id="state" type="text" name="state" placeholder="State"  size="10 ">
 
-    <input type="text" name="Country/Region" placeholder="Country/Region*" pattern="[A-Za-z]{1,15}" required size="10 ">
+    <input id="country" type="text" name="country" placeholder="Country/Region*"  size="10 ">
 
-    <input type="text" name="Zip/Postal code" placeholder="Zip/Postal code" pattern="[0-9]{1,5}" size="10">
+    <input id="postCode" type="text" name="postcode" placeholder="Zip/Postal code"  size="10">
     <br>
     <br>
 
     <!--</div> -->
 
-    <input type="text" name="How did you hear about us" placeholder="How did you hear about us" pattern="[a-zA-Z0-9]+" title="Six or more characters"
+    <input id="infoBox" type="text" name="HowDidYouHearAboutUs" placeholder="How did you hear about us" title="Six or more characters"
       size="57">
 
   </section>
@@ -102,7 +102,7 @@
         <div class="right-details">
           <br>
           <h6>Where are you interested in working?
-            <br>You must be legally authorisedto work without visa
+            <br>You must be legally authorised to work without visa
             <br>sponsorship in the localhost you choose</h6>
           <input type="checkbox" value="Austin">
           <label for="checkbox">Austin,Texas</label>
@@ -142,13 +142,15 @@
       <input type="text" name="potfolio" placeholder="Portfolio link*" size="100">
       <br>
       <br>
-      <textarea placeholder="text">"Anything else(another link availability etc)?" required></textarea>
+      <textarea placeholder="Anything else (another link, availability, etc.)?" cols="97" rows="7"></textarea>
 
       <br>
       <button>Submit</button>
       <br>
+      <!--<input type="submit" placeholder="Submit" id="submit">*/-->
     </div>
   </footer>
+  <script src="form.js"></script>
 </body>
 
 </html>
