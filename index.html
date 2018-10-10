@@ -36,10 +36,11 @@
     <!--</div> -->
 
     <input id="email" type="email" name="email" placeholder="Email*"  size="35">
+    <p>Email must be a valid address, e.g. example@example.com</p>
     <br>
     <br>
 
-    <input id="reEmail" type="text" name="reemail" placeholder="Re-enter email*" 
+    <input id="reEmail" type="email" name="reemail" placeholder="Re-enter email*" 
        size="35">
     <br>
     <br>
@@ -77,10 +78,10 @@
     <h6>Which is your primary design discipline?</h6>
     <div class="big-container ">
       <div class="buttons ">
-        <button>Design Research</button>
-        <button>Visual Design</button>
-        <button>Ux Design</button>
-        <button>Front-End Dev</button>
+        <!--<button id="one">Design Research</button>
+        <button id="two">Visual Design</button>
+        <button id="three">Ux Design</button>
+        <button id="four">Front-End Dev</button>-->
       </div>
 
       <div class="class-links ">
@@ -142,10 +143,10 @@
       <input type="text" name="potfolio" placeholder="Portfolio link*" size="100">
       <br>
       <br>
-      <textarea placeholder="Anything else (another link, availability, etc.)?" cols="97" rows="7"></textarea>
+      <textarea placeholder="Anything else (another link, availability, etc.)?" cols="97" name="infobox" rows="7"></textarea>
 
       <br>
-      <button>Submit</button>
+      <button  type="submit" disabled>Submit</button>
       <br>
       <!--<input type="submit" placeholder="Submit" id="submit">*/-->
     </div>

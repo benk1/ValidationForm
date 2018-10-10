@@ -111,12 +111,12 @@ button {
   flex: 1 1 auto;
 }
 
-footer button {
+/*footer button {
   background-color: dodgerblue;
   border: 1px solid gray;
   height: 40px;
   text-align: center;
-}
+}*/
 
 textarea {
   width: 70%;
@@ -152,14 +152,7 @@ p {
       border-left-color: green;
       border-color: #36cc36;
 }
-/*input:valid{
-  border: 2px solid green;
-  border-top-color: green;
-  border-right-color: green;
-  border-bottom-color: green;
-  border-left-color: green;
-  border-color: #36cc36;
-}*/
+
 
 .invalid:focus{
   border: 2px solid red;
@@ -169,11 +162,9 @@ p {
       border-bottom-color: red;
   }
 
-  /*input:invalid{
-    border: 2px solid red;
-  border-color:red;
-  }*/
+  
 
   .submit-button {
-    background:#3bd33b;
+   background:#3bd33b;
+   /*background: red;*/
 }
