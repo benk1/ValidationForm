@@ -15,18 +15,18 @@ const patterns = {
   email: /[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$/,
   reemail: /[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$/,
   address: /^[a-zA-Z]{1,15}[\s][0-9]{1}[a-zA-Z]{1}[\s][0-9]$/g,
-  infobox:  /^[a-zA-Z]{10}/,
-  HowDidYouHearAboutUs: /^[A-Za-z]{30}/,
-  potfolio: /[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$/
+  infobox:  /^[a-zA-Z ]{50}$/,
+  HowDidYouHearAboutUs: /^[A-Za-z ]{10,50}$/,
+  potfolio: /^(http:\/\/www\.|https:\/\/www\.|http:\/\/|https:\/\/)?[a-z0-9]+([\-\.]{1}[a-z0-9]+)*\.[a-z]{2,5}(:[0-9]{1,5})?(\/.*)?$/g
   
 };
 
 
 
-let arryInputs = Array.from(inputs);
+let arrayInputs = Array.from(inputs);
 
 function validInputs() {
-  return arryInputs.every(input=>{
+  return arrayInputs.every(input=>{
           return input.className == 'valid'   
   });  
 } 

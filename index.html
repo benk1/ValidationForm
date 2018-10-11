@@ -32,6 +32,7 @@
     <p>Full name must be alphanumeric and contain  characters</p>
     <input id="phone" type="text" name="phone" placeholder="Phone*"   size="45">
     <br>
+    <p>Phone Number should start with country code e.g +358....</p>
     <br>
     <!--</div> -->
 
@@ -43,10 +44,12 @@
     <input id="reEmail" type="email" name="reemail" placeholder="Re-enter email*" 
        size="35">
     <br>
+    <p>Email must be a valid address, e.g. example@example.com</p>
     <br>
 
     <input id="address" type="text" name="address" placeholder="Address*"   size="57">
     <br>
+    <p>Address should contain characters and numbers</p>
     <br>
 
     <!--<div class="state-code ">-->
@@ -64,6 +67,7 @@
 
     <input id="infoBox" type="text" name="HowDidYouHearAboutUs" placeholder="How did you hear about us" title="Six or more characters"
       size="57">
+      <p>This field should contain maximum 50 characters</p>
 
   </section>
 
@@ -141,10 +145,11 @@
       <br>
       <br>
       <input type="text" name="potfolio" placeholder="Portfolio link*" size="100">
+      <p>A link can start with http or https</p>
       <br>
       <br>
       <textarea placeholder="Anything else (another link, availability, etc.)?" cols="97" name="infobox" rows="7"></textarea>
-
+      <p>This field can contain atmost 50 characters</p>
       <br>
       <button  type="submit" disabled>Submit</button>
       <br>
