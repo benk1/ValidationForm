@@ -1,11 +1,11 @@
+
 * {
   box-sizing: border-box;
   /*margin: 0;*/
   padding: 0;
   max-width: 100%;
   background-color: #444e58;
-  /*text-align: center;*/
-  /*padding: 25px;*/
+  
   padding-bottom: 0px;
 }
 
@@ -21,6 +21,12 @@ input[type="text"] {
   margin: 20px;
   margin-left: 0px;
 }
+
+input[type="url"] {
+  background: #444e58;
+  color: white;
+}
+
 input[type="email"] {
   background: #444e58;
   color: white;
@@ -79,16 +85,15 @@ h4 {
   margin: 20px;
 }
 
-/*button:hover {
-  background: blue;
-}*/
+
 button {
   color: #eee;
   font-size: 15px;
   border: 3px solid gray;
-  height: 60px;
+  height: 40px;
   padding: 15px;
   margin: 10px;
+  
 }
 
 .class-links {
@@ -104,19 +109,14 @@ button {
   flex-wrap: wrap;
   flex-direction: column;
 }
-/*justify-content: space-between;*/
+
 
 .right-details,
 .left-details {
   flex: 1 1 auto;
 }
 
-/*footer button {
-  background-color: dodgerblue;
-  border: 1px solid gray;
-  height: 40px;
-  text-align: center;
-}*/
+
 
 textarea {
   width: 70%;
@@ -128,7 +128,6 @@ textarea {
   background-color: #444e58;
   font-size: 14px;
   resize: none;
-  /*border: 2px solid #6e757f;*/
   color: #ccc;
 }
 
@@ -166,5 +165,8 @@ p {
 
   .submit-button {
    background:#3bd33b;
-   /*background: red;*/
+   height: 40px;
+   width: 80px;
+   text-align: center;
+   
 }
