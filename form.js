@@ -17,7 +17,7 @@ const patterns = {
   address: /^[a-zA-Z ]{1,15}[0-9]{1,9}[a-zA-Z ]{1}[0-9 ]{1,9}$/,
   infobox:  /^[a-zA-Z ]{1,50}$/,
   HowDidYouHearAboutUs: /^[A-Za-z ]{1,50}$/,
-  potfolio: /^(http:\/\/www\.|https:\/\/www\.|http:\/\/|https:\/\/)?[a-z0-9]+([\-\.]{1}[a-z0-9]+)*\.[a-z]{1,4}(:[0-9]{1,5})?(\.*)?$/g,
+  potfolio: /^(http:\/\/www\.|https:\/\/www\.|http:\/\/|https:\/\/)?[a-z0-9]+([\-\.]{1}[a-z0-9]+)*\.[a-z]{1,4}(:[0-9]{1,5})?(\.*)?$/,
   
 };
 
